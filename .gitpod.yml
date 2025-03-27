@@ -5,8 +5,8 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - before: echo "the before" > /workspace/tasks
-    init: echo "the init" > /workspace/tasks
+  - before: echo "the before" >> /workspace/tasks
+    init: echo "the init" >> /workspace/tasks
     command: ./.gitpod/command.sh
 
 
